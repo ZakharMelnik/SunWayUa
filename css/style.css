@@ -57,22 +57,11 @@ header a.link .icon {
 section#banner {
 	box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.15);
 	position: relative;
-	background: url('../img/banner/bg.jpg') no-repeat top center;
-	-webkit-background-size: 100%;
-	background-size: 100%;
+	background: url('../img/banner/bg.png') no-repeat top center;
+	-webkit-background-size: cover;
+	background-size: cover;
 	z-index: 0;
 	padding: 280px 0 180px;
-}
-
-section#banner:after {
-	content: '';
-	position: absolute;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	background: rgba(36, 36, 36, 0.7);
-	z-index: -1;
 }
 
 section#banner .show-top {
@@ -139,7 +128,7 @@ section#banner .links a:first-child {
 	margin-bottom: 20px;
 }
 
-section#banner h1.title {
+section#banner h1 {
 	margin-bottom: 20px;
 }
 
@@ -174,22 +163,11 @@ section#banner a.btn {
 
 
 section#description {
-	background: url('../img/description/BG2.jpg') no-repeat center center;
+	background: url('../img/description/bg.png') no-repeat center center;
 	box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.15);
 	position: relative;
 	z-index: 0;
 	clip-path: polygon(0% 0%, 100% -5%, 100% 100%, 0% 100%);
-}
-
-section#description:after {
-	content: '';
-	position: absolute;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	background: rgba(36, 36, 36, 0.95);
-	z-index: -1;
 }
 
 section#description .card {
@@ -231,23 +209,12 @@ section#description .text {
 }
 
 section#recommendation {
-	background: url('../img/recommendation/bg.jpg') no-repeat center center;
-	-webkit-background-size: 100%;
-	background-size: 100%;
+	background: url('../img/recommendation/bg.png') no-repeat center center;
+	-webkit-background-size: cover;
+	background-size: cover;
 	box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.15);
 	position: relative;
 	z-index: 0;
-}
-
-section#recommendation:after {
-	content: '';
-	position: absolute;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	background: rgba(43, 43, 44, 0.97);
-	z-index: -1;
 }
 
 section#recommendation h2 {
@@ -289,23 +256,12 @@ section#recommendation ul li:before {
 }
 
 section#advantages {
-	background: url('../img/advantages/bg.jpg') no-repeat center center;
-	-webkit-background-size: 100%;
-	background-size: 100%;
+	background: url('../img/advantages/bg.png') no-repeat center center;
+	-webkit-background-size: cover;
+	background-size: cover;
 	box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.15);
 	position: relative;
 	z-index: 0;
-}
-
-section#advantages:after {
-	content: '';
-	position: absolute;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	background: rgba(43, 43, 44, 0.97);
-	z-index: -1;
 }
 
 section#advantages:before {
@@ -361,24 +317,14 @@ section#advantages .item .descr {
 
 
 section#catalog {
-	background: url('../img/advantages/bg.jpg') no-repeat center center;
-	-webkit-background-size: 100%;
-	background-size: 100%;
+	background: url('../img/catalog/bg.png') no-repeat center center;
+	-webkit-background-size: cover;
+	background-size: cover;
 	box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.15);
 	position: relative;
 	z-index: 0;
 }
 
-section#catalog:after {
-	content: '';
-	position: absolute;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	background: rgba(43, 43, 44, 0.97);
-	z-index: -1;
-}
 section#catalog .slider {
 	width: 100%;
 }
@@ -461,7 +407,7 @@ section#catalog .slider {
 section#catalog h2.title {
 	margin-bottom: 55px;
 }
-section#catalog .product {
+section#catalog .product:not(:last-of-type) {
 	margin-bottom: 100px;
 }
 
@@ -488,23 +434,12 @@ section#catalog .info .characteristics .title {
 }
 
 section#knowwhy {
-	background: url('../img/knowwhy/bg.jpg') no-repeat center center;
-	-webkit-background-size: 100%;
-	background-size: 100%;
+	background: url('../img/knowwhy/bg.png') no-repeat center center;
+	-webkit-background-size: cover;
+	background-size: cover;
 	box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.15);
 	position: relative;
 	z-index: 0;
-}
-
-section#knowwhy:after {
-	content: '';
-	position: absolute;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	background: rgba(43, 43, 44, 0.97);
-	z-index: -1;
 }
 
 section#knowwhy h2.title {
@@ -524,23 +459,11 @@ section#knowwhy .descr {
 }
 
 section#special-offer {
-	background: url('../img/special-offer/bg.jpg') no-repeat center center;
-	-webkit-background-size: 100%;
-	background-size: 100%;
+	background: url('../img/special-offer/bg.png') no-repeat center center;
+	-webkit-background-size: cover;
+	background-size: cover;
 	box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.15);
-	position: relative;
 	z-index: 0;
-}
-
-section#special-offer:after {
-	content: '';
-	position: absolute;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	background: rgba(43, 43, 44, 0.97);
-	z-index: -1;
 }
 
 section#special-offer h2.title {
@@ -564,24 +487,13 @@ section#special-offer .img img {
 }
 
 footer {
-	background: url('../img/footer/bg.jpg') no-repeat center center;
-	-webkit-background-size: 100%;
-	background-size: 100%;
+	background: url('../img/footer/bg.png') no-repeat center center;
+	-webkit-background-size: cover;
+	background-size: cover;
 	box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.15);
 	position: relative;
 	z-index: 0;
 	padding: 100px 0 0;
-}
-
-footer:after {
-	content: '';
-	position: absolute;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	background: rgba(43, 43, 44, 0.97);
-	z-index: -1;
 }
 
 footer .socials {
@@ -748,23 +660,12 @@ footer .contacts .box a {
 }
 
 section#video {
-	background: url('../img/certificates/bg.jpg') no-repeat center center;
-	-webkit-background-size: 100%;
-	background-size: 100%;
+	background: url('../img/certificates/bg.png') no-repeat center center;
+	-webkit-background-size: cover;
+	background-size: cover;
 	box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.15);
 	position: relative;
 	z-index: 0;
-}
-
-section#video:after {
-	content: '';
-	position: absolute;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	background: rgba(43, 43, 44, 0.97);
-	z-index: -1;
 }
 
 section#video .video-container {
@@ -804,6 +705,7 @@ section#video .video-container iframe {
     left: 0;
     width: 100%;
     height: 100%;
+    border: none;
 }
 
 section#video .container-img img {
@@ -1051,9 +953,14 @@ table tbody {
 	font-size: 16px;
 	color: #fff;
 }
-#heater {
-	
+
+section#heater {
+	background: url('../img/heater/bg.png') no-repeat top center;
+	-webkit-background-size: cover;
+	background-size: cover;
+	overflow: hidden;
 }
+
 #heater h2 {
 	margin-bottom: 150px;
 }
